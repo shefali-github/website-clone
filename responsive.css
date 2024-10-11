@@ -1,0 +1,121 @@
+@media (max-width: 1500px) {
+    /*  top bar */
+    #top-bar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    
+    #icon_top-bar {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    #top-bar-p {
+        justify-content: center;
+        margin-left: 0;
+    }
+    /* header */
+    #header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #header-img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #header-p {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 10px;
+    }
+
+    #header-search {
+        width: 300px;
+        margin: 10px 0;
+    }
+
+    #header-i {
+        margin-top: 10px;
+    }
+
+    /*  features */
+    #features {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        gap: 20px;
+        height: auto;
+    }
+
+    /* Banner */
+    .carousel-caption h1 {
+        font-size: 36px;
+        margin-top: -250px;
+    }
+    
+    .carousel-caption p {
+        font-size: 18px;
+    }
+    
+    .ban-btn {
+        width: 90px;
+    }
+
+    /* Shop by category */
+    #category {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #category-h1 {
+        text-align: center;
+        margin: 20px 130px;
+    }
+
+    #category-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-img-col {
+        width: 90%;
+        height: auto;
+    }
+
+    #category_btn-btn {
+        width: 200px;
+        position: absolute;
+        margin: 1800px -930px;
+    }
+    
+    /* Explore Best Selling Ranges */
+    #container-4 {
+        
+        margin: 30px 0px;
+        height: auto;
+    }
+
+    #cont-4-h1 {
+        padding-top: 40px;
+    }
+
+    #cont-4-img_set1, #cont-4-img_set2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-4-images {
+        width: 90%;
+        height: auto;
+    }
+
+    #cont-4-btn {
+        width: 200px;
+        margin: 40px 200px;
+    }
+}

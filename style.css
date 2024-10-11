@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* top bar */
+#top-bar{
+    /* border: 2px solid hotpink; */
+    width: 100%;
+    height: 37.11px;
+    background-color: #8BC349;
+    color: #FFFFFF;
+    display: flex;
+
+}
+#icon_top-bar{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 186px;
+    height: 18.82px;
+    padding-top: 9.41px;
+    padding-left: 130px;
+    gap: 25px;
+   
+
+}
+#fb-icon{
+   margin-right: 50px; 
+}
+#top-bar-p{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 452px;
+    height: 18.56px;
+    margin-top: 9px;
+    margin-left: 975px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.23px;
+    gap: 32px;
+}
+#top-bar-i{
+    /* border: 2px solid rebeccapurple; */
+    width: 20px;
+    height: 9.41px;
+    padding-top: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.23px;
+    text-align: center;
+    
+}
+
+/* header */
+#header{
+    /* border: 2px solid red; */
+    Width: 100%;
+    Height: 92.78px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header-img{
+    width: 109.12px;
+    height: 74.23px;    
+    margin-left: 70px;
+    margin-right: 100px;
+}
+#header-p{
+    /* border: 2px solid lawngreen; */
+    display: flex;
+    justify-content: space-evenly;   
+    width: 843px;
+    height: 21.34px;
+    padding-top: 34px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+    text-align: left;
+    gap: 10px;
+}
+#header-search{
+    border: 1px solid black;
+    width: 250px;
+    height: 38.97px;
+    margin-top: 25px;
+    margin-right: -40px;
+    margin-left: -70px;
+    text-align: center;
+    background-color: none;   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+    padding-top: 8px;
+
+}
+#search{
+   /* border: 2px solid rebeccapurple;  */
+   color:#8BC349;
+   margin-left: 100px;
+   width: 20px;
+   height: 20px;
+   font-size: 18px;
+}
+#header-i{
+    
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 22px;
+    margin-right: -10px;
+    color:#006837;
+      
+}
+
+
+/* 4 fdeatures  */
+#features{
+    /* border: 1px solid orangered; */
+    Width: 100%;
+    Height: 37.11px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21.68px;
+    letter-spacing: 0.19em;
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    color: #FFFFFF;
+    background-color:#006837;
+    padding-left: 150px;
+    
+  
+}
+
+
+/* banner section */
+.carousel 
+{
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+}
+.carousel-caption h1{
+    margin-top: -400px;
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+
+
+}
+.carousel-caption p{
+    
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+
+}
+.ban-btn{
+    width: 105px;
+    height: 40px;
+   border: none; 
+    color: #FFFFFF;
+    background-color: #8BC349;
+
+}
+.ban-btn:hover{
+    background-color: #006837;
+}
+
+/* shop by category */
+
+#category{
+    /* border: 5px solid royalblue; */
+    width: 100%;
+    height: 621px;
+    margin-top: 60px;
+    
+}
+#category-h1{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 65px; 
+    margin-left: 100px;
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65.04px;
+    text-align: left;
+
+}
+#category-img{
+    /* border: 2px solid fuchsia; */
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#category_btn-btn{
+    width: 207px;
+    height: 45px;
+    top: 990px;
+    left: 1193px;
+    position: absolute;
+    background-color: #8BC349;
+    border: none;
+    color: white; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.12px;
+    
+}
+#category_btn-btn:hover{
+    background-color: #006837;
+}
+.category-p{
+    /* border: 2px solid gold; */
+    font-family: Prata;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.78px;
+    margin-top: 30px;
+    position: absolute;    
+    margin-left: 20px;
+    color: #FFFFFF;
+
+}
+.category-img-col{
+    width: 420px;
+    height: 420px;
+    
+}
+.category-btn{
+    /* border: 2px solid red; */
+    width: 93px;
+    height: 23px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -400px;
+    background: none;
+    color: white;
+    border: none;
+    font-family: Font Awesome 5 Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    
+    
+}
+#category-arrow-left{
+    /* border: 5px solid hotpink; */
+    width: 30.35px;
+    height: 30.42px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -490px;
+    color:#d9d9d9;
+    font-size: 25px;
+    
+}
+
+#category-arrow-right{
+    /* border: 5px solid hotpink; */
+    width: 30.35px;
+    height: 30.42px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -360px;
+    color: #d9d9d9;
+    font-size: 25px;
+}
+
+
+
+/* Explore These Best Selling Ranges */
+#container-4{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 1200px;
+    margin-top: -20px;
+    background-color:#D4DFD4;
+    display: block;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+#cont-4-h1{  
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65.04px;
+    text-align: center;    
+    padding-top: 70px;
+}
+#cont-4-img_set1{
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+    margin-top: 42px;
+    
+}
+.cont-4-images{
+    width: 350px;
+    height:350px;
+}
+.cont-4-p1{   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.01px;
+    text-align: center;
+    
+}
+.cont-4-p2{
+    
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.12px;
+    text-align: center;
+    color: #006837;
+    
+}
+#cont-4-img_set2{
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#cont-4-btn{
+    width: 191px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.12px;
+    text-align: center;
+    color: white;
+    background-color: #8BC349;
+    margin-left: 750px;
+    margin-top: 80px;
+    border: none;
+}
+#cont-4-btn:hover{
+    background-color: #006837;
+}
